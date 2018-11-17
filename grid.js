@@ -4,7 +4,7 @@ class Grid {
         this.cols = rows;
         this.squareWidth = (width / rows);
         this.grid = this.createGrid();
-        this.ant = new Ant(50 * this.squareWidth, 50 * this.squareWidth, this.squareWidth);
+        this.ant = new Ant(50 * this.squareWidth, 50 * this.squareWidth, this.squareWidth, 90); //90 being the degrees it turns
     }
 
     createGrid(){
